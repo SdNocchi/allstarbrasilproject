@@ -47,7 +47,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to bottom, #4a4050ae, #ab23fa33);
+    background-image: linear-gradient(to bottom, #4a4050ae, #ab23fa50);
 }
 header div {
     width: 100%;
@@ -111,7 +111,7 @@ header > div > img {
 }
 
 main {
-    background-color: #ab23fa33;
+    background-color: #ab23fa28;
     max-width: 800px;
     min-width: 300px;
     margin: auto;
@@ -176,7 +176,7 @@ main > aside > ul > li > a:hover {
 }
 
 footer {
-    background-color: #ab23fa33;
+    background-color: #ab23fa28;
     border-radius: 0px 0px 45px 45px;
     margin: auto;
     padding-bottom: 1px;
