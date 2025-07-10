@@ -115,6 +115,7 @@ main {
     max-width: 800px;
     min-width: 300px;
     margin: auto;
+    padding-bottom: 10px;
 }
 main > h2 {
     font-size: 3em;
@@ -138,27 +139,27 @@ main > article > strong {
     text-align: bolder;
 }
 
-main > aside > h3, ul {
+main > aside > div > h3, ul {
     text-align: center;
     font-family: "Funnel Display", sans-serif;
     font-size: 1.3em;
 }
 
-main > aside > h3 {
+main > aside > div > h3 {
     font-family: "Londrina Shadow", sans-serif;
     font-size: 3em;
 }
 
-main > aside {
+main > aside > div {
     padding-bottom: 15px;
 }
 
-main > aside > ul > li > a {
+main > aside > div > ul > li > a {
     text-decoration: none;
     color: black;
 }
 
-main > aside > ul > li > a:hover {
+main > aside > div > ul > li > a:hover {
     text-decoration: underline;
 }
 
@@ -173,6 +174,31 @@ main > aside > ul > li > a:hover {
 .top3 {
     list-style-type: "\1F525\1F517\00A0";
     list-style-position: inside;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    padding-left: 10px;
+}
+
+#conteudo {
+    position: absolute;
+    left: 50%;
+    top: 3%;
+    padding: 0px 0px 0px 0px;
+    transform: translate(-50% -50%);
+}
+
+#foto > img {
+    max-width: 200px;
+    position: relative;
+    left: 10%;
+    top: 5%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.555);
+    transform: scale(1.1);
+    
 }
 
 footer {
