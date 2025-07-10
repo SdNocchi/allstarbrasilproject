@@ -191,6 +191,7 @@ main > aside > div > ul > li > a:hover {
 }
 
 #foto > img {
+    
     max-width: 200px;
     position: relative;
     left: 10%;
@@ -198,7 +199,7 @@ main > aside > div > ul > li > a:hover {
     border-radius: 15px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.555);
     transform: scale(1.1);
-    
+
 }
 
 footer {
