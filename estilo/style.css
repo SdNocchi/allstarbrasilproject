@@ -15,7 +15,7 @@
       transform: scale(1);
     }
     50% {
-      transform: scale(1.1); /* Aumenta 20% */
+      transform: scale(1.3); /* Aumenta 20% */
     }
     100% {
       transform: scale(1);
@@ -37,14 +37,14 @@
 }
 
 body {
-    background-color: #6a4e7a97;
+    background-color: #6a4e7a93;
     max-width: 800px;
     min-width: 300px;
     margin: auto;
 }
 
 header {
-    background-image: linear-gradient(to bottom, #4a405082, #ab23fa71);
+    background-image: linear-gradient(to top, #4a4050d5, #ab23faa7);
 }
 header div {
     width: 100%;

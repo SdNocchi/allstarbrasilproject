@@ -1,0 +1,120 @@
+@charset "UTF-8";
+ 
+@keyframes swing-animation {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1); /* Aumenta 20% */
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+@font-face {
+    font-family: sticky;
+    src: url(/fonte/Sticky\ Paper.otf) format(OpenType);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap');
+
+body {
+    background-color: black;
+    background-image: url(../imagens/meianoite.jpg);
+    background-size: contain;
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    max-width: 800px;
+    min-width: 400px;
+    margin: auto;
+}
+
+body > header > h1 {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    font-family: sticky, sans-serif;
+    font-size: 2.7em;
+}
+
+body > header > p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: "Funnel Display", sans-serif;
+    font-size: 1.3em;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.playlist {
+    color: white;
+    text-align: center;
+}
+header > div {
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    border: rgba(255, 255, 255, 0.144) solid 1px;
+    width: 40%;
+    border-radius: 30px;
+    margin: auto;
+    transition: transform 0.3s ease;
+    font-family: "Londrina Shadow", sans-serif;
+}
+
+.swing {
+  animation: swing-animation 1.3s ease-out infinite;
+}
+
+header > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+header >div a:hover {
+    color: #1DB954;
+}
+
+main > h1 {
+    color: white;
+    text-align: center;
+    font-family: sticky, sans-serif;
+    font-size: 2em;
+}
+main > div {
+    width: 60%;
+    margin: auto;
+    color: white;
+    text-indent: 20px;
+    text-align: center;
+    font-style: italic;
+}
+
+footer > h3 {
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 10px;
+    font-family: sticky, sans-serif;
+    font-size: 2em;
+}
+
+.faixas {
+    max-width: 18%;
+    padding-left: auto, 70px;
+    margin: auto;
+    color: white;
+    font-size: 1.3em;
+    font-family: "Funnel Display", sans-serif;
+}
+
+.checklist {
+    list-style-type: "\002714\00A0\00A0";
+}
