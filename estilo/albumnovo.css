@@ -29,6 +29,7 @@ body {
     background-position: center center;
     background-repeat: no-repeat;
     margin: auto;
+    background-attachment: fixed;
 }
 
 body > header > h1 {
@@ -110,8 +111,9 @@ footer > h3 {
     padding-left: auto, 70px;
     margin: auto;
     color: white;
-    font-size: 1.6em;
+    font-size: 1.3em;
     font-family: "Funnel Display", sans-serif;
+    
 }
 
 .ajuste {
