@@ -112,6 +112,7 @@ main {
     max-width: 800px;
     min-width: 300px;
     margin: auto;
+    padding-bottom: 10px;
 }
 main > h2 {
     font-size: 3em;
@@ -171,12 +172,40 @@ main > aside > ul > li > a:hover {
     list-style-position: inside;
 }
 
+main > div {
+    background-color: black;
+    text-align: end;
+    padding: 15px;
+    margin: auto;
+    width: fit-content;
+    background-color: #4a4050;
+    font-family: "Titan One", sans-serif;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.651);
+}
+
+main > div > p > a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+main > div > p > a:hover {
+    color: var(--cor0);
+}
+
+main > div:hover {
+    background-color: var(--cor3);
+    color: var(--cor0);
+}
+
 footer {
     background-color: #854ea555;
     border-radius: 0px 0px 45px 45px;
 }
 footer > h1 {
     text-align: center;
+    font-family: "Funnel Display", sans-serif;
 }
 footer > ul {
     list-style-type: "\2705\00A0";
@@ -185,6 +214,6 @@ footer > ul {
     padding-bottom: 10px;
 }
 footer > ul > li {
-    font-size: 1.5em;
+    font-size: 1.3em;
     font-weight: bold;
 }
