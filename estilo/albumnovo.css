@@ -24,7 +24,7 @@
 body {
     background-color: black;
     background-image: url(../imagens/meianoite.jpg);
-    background-size: contain;
+    background-size: cover;
     height: 100vh;
     background-position: center center;
     background-repeat: no-repeat;
@@ -34,7 +34,7 @@ body {
 body > header > h1 {
     color: white;
     text-align: center;
-    padding-top: 0px;
+    padding-top: 40px;
     font-family: sticky, sans-serif;
     font-size: 2.7em;
 }
@@ -93,13 +93,14 @@ main > div {
     text-indent: 20px;
     text-align: center;
     font-style: italic;
+    padding-bottom: 30px;
 }
 
 footer > h3 {
     color: white;
     text-align: center;
     margin: 0px;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
     font-family: sticky, sans-serif;
     font-size: 2em;
 }
@@ -109,7 +110,7 @@ footer > h3 {
     padding-left: auto, 70px;
     margin: auto;
     color: white;
-    font-size: 1.3em;
+    font-size: 1.6em;
     font-family: "Funnel Display", sans-serif;
 }
 
